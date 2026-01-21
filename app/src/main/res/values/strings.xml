@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">日历</string>
+    <string name="action_add_event">添加日程</string>
+    <string name="action_settings">设置</string>
+    <string name="menu_import">导入 ICS</string>
+    <string name="menu_export">导出 ICS</string>
+    <string name="menu_subscribe">订阅日历 (URL)</string>
+    <string name="view_month">月视图</string>
+    <string name="view_week">周视图</string>
+    <string name="dialog_subscribe_title">订阅日历</string>
+    <string name="dialog_subscribe_hint">请输入日历链接 (https://...)</string>
+    <string name="dialog_subscribe_btn">订阅</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="toast_subscribe_success">订阅成功：添加了 %1$d 个日程</string>
+    <string name="toast_connect_failed">连接失败：%1$d</string>
+    <string name="toast_subscribe_failed">订阅失败：%1$s</string>
+    <string name="toast_import_success">导入成功：%1$d 个日程</string>
+    <string name="toast_import_failed">导入失败：%1$s</string>
+    <string name="toast_export_success">导出成功</string>
+    <string name="toast_export_failed">导出失败：%1$s</string>
+    <string name="text_all_day">全天</string>
+    <string name="hint_event_title">日程标题</string>
+    <string name="hint_location">地点</string>
+    <string name="hint_description">描述</string>
+    <string name="text_reminder">提醒</string>
+    <string name="btn_start_date">开始日期</string>
+    <string name="btn_start_time">开始时间</string>
+    <string name="btn_end_date">结束日期</string>
+    <string name="btn_end_time">结束时间</string>
+    <string name="btn_save_event">保存日程</string>
+    <string name="btn_delete_event">删除日程</string>
+    <string name="toast_title_required">标题不能为空</string>
+    <string name="toast_end_time_error">结束时间必须晚于开始时间</string>
+    <string-array name="reminder_options">
+        <item>无</item>
+        <item>提前10分钟</item>
+        <item>提前30分钟</item>
+        <item>提前1小时</item>
+        <item>提前1天</item>
+    </string-array>
+</resources>
